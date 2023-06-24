@@ -5,7 +5,7 @@ package auto.grader.app;
 public class App 
 {
     public void addTwoNumbers(int a, int b) {
-        int sum =  a + b;
+        int sum =  a * b;
         System.out.print(sum);
     }
 

@@ -1,4 +1,20 @@
 -------------------------------------------------------------------------------
 Test set: auto.grader.app.ServiceListRepositoryTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in auto.grader.app.ServiceListRepositoryTest
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in auto.grader.app.ServiceListRepositoryTest
+testSaveEmployee  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at auto.grader.app.ServiceListRepositoryTest.testSaveEmployee(ServiceListRepositoryTest.java:26)
+
+testDeleteEmployee  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at auto.grader.app.ServiceListRepositoryTest.testDeleteEmployee(ServiceListRepositoryTest.java:53)
+
+testFindAllEmployees  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at auto.grader.app.ServiceListRepositoryTest.testFindAllEmployees(ServiceListRepositoryTest.java:67)
+
+testUpdateEmployee  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at auto.grader.app.ServiceListRepositoryTest.testUpdateEmployee(ServiceListRepositoryTest.java:36)
+

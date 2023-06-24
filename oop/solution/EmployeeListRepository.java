@@ -7,7 +7,7 @@ public class EmployeeListRepository implements EmployeeRepository {
     private List<Employee> employees;
 
     public EmployeeListRepository() {
-        employees = new ArrayList<>();
+//        employees = new ArrayList<>();
     }
 
     @Override
